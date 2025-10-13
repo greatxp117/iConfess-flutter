@@ -1,0 +1,69 @@
+name: iconfess
+description: "A comprehensive Flutter showcase of shadcn/ui components. Clean, modern building blocks that can be copied and pasted into your Flutter apps. Features responsive design, theme switching, and interactive component examples."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  geolocator: 13.0.4
+  flutter:
+    sdk: flutter
+  shadcn_ui: ^0.28.5
+  syntax_highlight: ^0.5.0
+  google_fonts: ^6.3.0
+  go_router: ^16.2.0 
+  provider: ^6.1.5
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  
+  fonts:
+    - family: Geist
+      fonts:
+        - asset: lib/assets/fonts/Geist-Thin.otf
+          weight: 100
+        - asset: lib/assets/fonts/Geist-UltraLight.otf
+          weight: 200
+        - asset: lib/assets/fonts/Geist-Light.otf
+          weight: 300
+        - asset: lib/assets/fonts/Geist-Regular.otf
+          weight: 400
+        - asset: lib/assets/fonts/Geist-Medium.otf
+          weight: 500
+        - asset: lib/assets/fonts/Geist-SemiBold.otf
+          weight: 600
+        - asset: lib/assets/fonts/Geist-Bold.otf
+          weight: 700
+        - asset: lib/assets/fonts/Geist-Black.otf
+          weight: 800
+        - asset: lib/assets/fonts/Geist-UltraBlack.otf
+          weight: 900
+    
+    - family: GeistMono
+      fonts:
+        - asset: lib/assets/fonts/GeistMono-Thin.otf
+          weight: 100
+        - asset: lib/assets/fonts/GeistMono-UltraLight.otf
+          weight: 200
+        - asset: lib/assets/fonts/GeistMono-Light.otf
+          weight: 300
+        - asset: lib/assets/fonts/GeistMono-Regular.otf
+          weight: 400
+        - asset: lib/assets/fonts/GeistMono-Medium.otf
+          weight: 500
+        - asset: lib/assets/fonts/GeistMono-SemiBold.otf
+          weight: 600
+        - asset: lib/assets/fonts/GeistMono-Bold.otf
+          weight: 700
+        - asset: lib/assets/fonts/GeistMono-Black.otf
+          weight: 800
+        - asset: lib/assets/fonts/GeistMono-UltraBlack.otf
+          weight: 900
